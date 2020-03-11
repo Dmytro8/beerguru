@@ -1,0 +1,33 @@
+@import "../../styles/vars.scss";
+.beerWrapper {
+  // position: absolute;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(230, 230, 230, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(230, 230, 230, 1);
+  box-shadow: 0px 0px 10px 0px rgba(230, 230, 230, 1);
+  border-radius: 5px;
+  transition: 0.3s;
+  .imgWrapper {
+    height: 170px;
+    img {
+      height: 100%;
+    }
+  }
+  .detailsWrapper {
+    margin-top: 10px;
+    display: grid;
+  }
+}
+.beerName {
+  color: $accent-color;
+}
+.beerTagline {
+  height: 40px;
+  color: #adadad;
+}
+.beerWrapper:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

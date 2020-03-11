@@ -1,0 +1,21 @@
+@import "../styles/vars.scss";
+.App {
+  display: grid;
+  justify-content: center;
+
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 500px !important;
+  }
+}
+
+@media (max-width: 510px) {
+  .container {
+    width: 90vw !important;
+  }
+}

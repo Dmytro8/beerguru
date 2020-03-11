@@ -1,0 +1,23 @@
+.beersWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 800px) {
+  .beersWrapper {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media (max-width: 510px) {
+  .beersWrapper {
+    grid-template-columns: 1fr !important;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(230, 230, 230, 1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(230, 230, 230, 1);
+    box-shadow: 0px 0px 10px 0px rgba(230, 230, 230, 1);
+    padding: 10px;
+  }
+}
