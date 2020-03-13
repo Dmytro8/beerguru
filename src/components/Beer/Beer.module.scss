@@ -1,16 +1,15 @@
 @import "../../styles/vars.scss";
 .beerWrapper {
-  // position: absolute;
+  position: relative;
   background-color: white;
   text-align: center;
-  padding: 20px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(230, 230, 230, 1);
   -moz-box-shadow: 0px 0px 10px 0px rgba(230, 230, 230, 1);
   box-shadow: 0px 0px 10px 0px rgba(230, 230, 230, 1);
   border-radius: 5px;
   transition: 0.3s;
   .imgWrapper {
-    height: 170px;
+    height: 70%;
     img {
       height: 100%;
     }
@@ -21,11 +20,11 @@
   }
 }
 .beerName {
+  font-size: 15px;
   color: $accent-color;
 }
 .beerTagline {
-  height: 40px;
-  color: #adadad;
+  color: $beer-tagline;
 }
 .beerWrapper:hover {
   cursor: pointer;
