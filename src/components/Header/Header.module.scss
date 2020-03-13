@@ -1,6 +1,6 @@
 @import "../../styles/vars.scss";
 .header {
-  // height: 100px;
+  width: max-content;
   padding: 20px 0 20px 30px;
   h1 {
     text-transform: uppercase;
@@ -9,5 +9,8 @@
     span {
       color: $accent-color;
     }
+  }
+  :hover {
+    cursor: pointer;
   }
 }
