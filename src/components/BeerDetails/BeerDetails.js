@@ -52,6 +52,7 @@ export const BeerDetails = ({ allBeers, statusModal, setStatusModal }) => {
       document.body.classList.remove("modal-open");
       setBeer(null);
       setIsDataFetched(false);
+      setisRecBeersFetched(false);
     };
   }, [beerId]);
 
