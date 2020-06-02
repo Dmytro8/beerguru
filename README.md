@@ -11,7 +11,7 @@ After the page will be loaded, a user can choose a beer. As a result he will rec
 
 ## Tech stack
   - HTML
-  - CSS
+  - CSS (SCSS)
   - Javascript
   - React
   - Hooks (useState, useEffect)
